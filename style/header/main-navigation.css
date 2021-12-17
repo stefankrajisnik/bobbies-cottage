@@ -1,0 +1,52 @@
+.main-navigation {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: var(--color-bg-dark);
+    color: var(--color-text-light);
+    height: 8rem;
+    align-items: center;
+}
+
+
+.main-navigation .welcome {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-navigation .logo {
+    width: 100%;
+    text-align: center;
+}
+
+.main-navigation .logo a img {
+    max-height: 7rem;
+    height: 100%;
+}
+
+
+.main-navigation .icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-navigation .icons-container a {
+    width: 2rem;
+    height: 2rem;
+}
+
+.main-navigation .icons-container a.instagram {
+    background-image: url("/static/icon/instagram.png");
+    background-size: cover;
+}
+
+.main-navigation .icons-container a.facebook {
+    background-image: url("/static/icon/facebook.png");
+    background-size: cover;
+}
+
+.main-navigation .icons-container a.whatsapp {
+    background-image: url("/static/icon/whatsapp.png");
+    background-size: cover;
+}
