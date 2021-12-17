@@ -1,0 +1,14 @@
+:root {
+    --color-light: #032130;
+    --color-dark-light-100: #1c3745;
+    --color-dark-light-200: #354d59;
+    --color-dark-light-300: #4f646e;
+    --color-dark-light-400: #687a83;
+    --color-dark-light-500: #819098;
+
+    --color-white: #FFFFFF;
+    --color-red: #EF4339;
+    --color-orange-light: #ED7A3B;
+    --color-orange-dark: #F28933;
+    --color-black: #032130;
+}

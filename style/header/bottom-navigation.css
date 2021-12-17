@@ -1,0 +1,29 @@
+.bottom-navigation {
+    background: var(--color-bg-dark);
+    border-top: 2px solid var(--color-border-light);
+    border-bottom: 2px solid var(--color-border-light);
+}
+
+.bottom-navigation ul {
+    display: flex;
+}
+
+.bottom-navigation ul li {
+    width: 100%;
+}
+
+.bottom-navigation ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bottom-navigation ul li a:hover {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+}

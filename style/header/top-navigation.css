@@ -1,0 +1,26 @@
+.top-navigation {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+}
+
+.top-navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2rem;
+}
+
+.top-navigation ul li {
+    display: flex;
+    align-items: center;
+}
+
+.top-navigation ul li a {
+    text-decoration: none;
+    color: var(--color-text-dark);
+    font-size: 1.25rem;
+}
+
+.top-navigation ul li a span {
+    margin-right: .1rem;
+}
