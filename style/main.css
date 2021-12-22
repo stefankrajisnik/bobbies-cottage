@@ -5,8 +5,30 @@
 @import "./header/top-navigation.css";
 @import "./header/main-navigation.css";
 @import "./header/bottom-navigation.css";
+@import "./content/side-navigation.css";
+
+/* * {
+    border: 1px solid red;
+} */
 
 .container {
-    height: 1200px;
     background-color: var(--color-dark-light-100);
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+
+    
+
+}
+
+
+
+
+
+.img1{
+ /* width: 600px; */
+ max-width: 100%;
+}
+
+.img2{
+ max-width: 100%;
 }
