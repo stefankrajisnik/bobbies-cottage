@@ -1,10 +1,15 @@
 :root {
-    --color-light: #032130;
-    --color-dark-light-100: #1c3745;
-    --color-dark-light-200: #354d59;
-    --color-dark-light-300: #4f646e;
-    --color-dark-light-400: #687a83;
-    --color-dark-light-500: #819098;
+    --color-dark: #032130;
+    --color-dark-lighter-100: #1c3745;
+    --color-dark-lighter-200: #354d59;
+    --color-dark-lighter-300: #4f646e;
+    --color-dark-lighter-400: #687a83;
+    --color-dark-lighter-500: #819098;
+    --color-dark-darker-100: #1c3745;
+    --color-dark-darker-200: #354d59;
+    --color-dark-darker-300: #4f646e;
+    --color-dark-darker-400: #687a83;
+    --color-dark-darker-500: #819098;
 
     --color-white: #FFFFFF;
     --color-red: #EF4339;
