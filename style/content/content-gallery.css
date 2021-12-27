@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px 0 5px;
+}
+
+.row div {
+    height: 300px;
+    flex-grow: 0.5;
+    margin: 5px 5px 0 5px;
+    border: 2px solid white;
+
+}
+
+#image-one {
+    background-image: url(/static/img/img-one.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#image-two {
+    background-image: url(/static/img/img-two.jpg);
+    background-size: cover;
+}
+
+#image-three {
+    background-image: url(/static/img/img-three.jpg);
+    background-size: cover;
+}
+
+#image-four {
+    background-image: url(/static/img/img-four.jpg);
+    background-size: cover;
+}
+
+#image-five {
+    background-image: url(/static/img/img-five.jpg);
+    background-size: cover;
+}
+
+#image-six {
+    background-image: url(/static/img/img-six.jpg);
+    background-size: cover;
+}
