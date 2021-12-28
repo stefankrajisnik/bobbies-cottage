@@ -5,13 +5,10 @@
 }
 
 .row div {
-    
     flex-grow: 0.5;
     margin: 5px 5px 0 5px;
     border: 2px solid red;
-
 }
-
 
 .row .image {
     height: 300px;
@@ -19,38 +16,28 @@
 
 .row .description {
     height: 100px;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     background-color: white;
     width: 100%;
     opacity: 0.2;
 }
 
-.img-wraper{
+.image-wrapper {
     display: flex;
     flex-direction: column;
     position: relative;
     
 }
 
-.image{
-
-}
-
-.description{
-
-    
-}
 #image-one {
     background-image: url(/static/img/img-one.jpg);
     background-size: cover;
-    
 }
 
 #image-two {
     background-image: url(/static/img/img-two.jpg);
     background-size: cover;
-
 }
 
 #image-three {
