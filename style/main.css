@@ -2,8 +2,6 @@
 @import "./base/colors.css";
 @import "./base/themes/dark.css";
 
-@import "./layout.css";
-
 @import "./header/top-navigation.css";
 @import "./header/main-navigation.css";
 @import "./header/bottom-navigation.css";

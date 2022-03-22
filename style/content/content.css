@@ -17,80 +17,10 @@
     width: 200px;
     margin: 0.3rem 0.3rem;
     position: relative;
-    overflow: hidden;
 }
 
-.photo{
+.photo {
     width: 100%;
     height: 100%;
     position: absolute;
-}
-
-
-.winter1{
-    bottom: 0;
-    left: 0;
-   
-}
-.winter2{
-    bottom: 10px;
-    left: 10px;
-   
-}
-.winter3{
-    bottom: 20px;
-    left: 20px;
-    
-}
-.winter4{
-    bottom: 30px;
-    left: 30px;
-    
-}
-.winter5{
-    bottom: 40px;
-    left: 40px;
-    
-}
-.winter6{
-    bottom: 50px;
-    left: 50px;
-    
-}
-.winter7{
-    bottom: 60px;
-    left: 60px;
-    
-}
-
-.winter8{
-    bottom: 70px;
-    left: 70px;
-    /* object-fit: contain; */
-    height: 130px;
-    width: 130px;
-    
-}
-
-.winter-gallery:hover{
-    z-index: 54;
-    width:100vw;
-    height: 100vh;
-    background-color: rgba(43, 54, 54, 0.5);
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.sidebar-container {
-    display: flex;
-    transform: rotate(90deg);
-    justify-content: center;
-    align-items: center;
-}
-.sidebar {
-    
-}
-
-.location-coordinate {
-    
 }
