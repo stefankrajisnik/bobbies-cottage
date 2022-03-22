@@ -2,6 +2,7 @@
     background: var(--color-bg-dark);
     border-top: 2px solid var(--color-border-light);
     border-bottom: 2px solid var(--color-border-light);
+    
 }
 
 .bottom-navigation ul {
@@ -26,4 +27,5 @@
 .bottom-navigation ul li a:hover {
     background-color: var(--color-bg-light);
     color: var(--color-text-dark);
+    transition: all 0.3s ease;
 }
