@@ -1,6 +1,7 @@
 .top-navigation {
     background-color: var(--color-bg-light);
     color: var(--color-text-dark);
+    width: 100vw;
 }
 
 .top-navigation ul {
@@ -23,4 +24,9 @@
 
 .top-navigation ul li a span {
     margin-right: .1rem;
+}
+
+.navigation {
+    position: sticky;
+    top: -2rem;
 }

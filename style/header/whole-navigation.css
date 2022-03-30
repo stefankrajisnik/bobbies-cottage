@@ -1,0 +1,20 @@
+.navigation {
+    color: rebeccapurple;
+    z-index: 4;
+    contain: layout;
+ }
+
+ .adresa.active {
+    color: var(--color-orange-light);
+ }
+
+ .navigation.active .top-navigation ul li a {
+    color: var(--color-orange-light);
+ }
+ .navigation.active .main-navigation{
+    color: var(--color-orange-light);
+ }
+
+ .navigation.active .bottom-navigation ul li a {
+    color: var(--color-orange-light);
+ }
