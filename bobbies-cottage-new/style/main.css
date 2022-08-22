@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@import "./left-side/left-side.css";
+@import "./main-container/main-container.css";
+@import "./right-side/right-side.css";
+@import "./right-side/header.css";
