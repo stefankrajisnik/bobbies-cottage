@@ -1,4 +1,4 @@
-const text = document.querySelector('.div-text p');
+const text = document.querySelector('.circle-text p');
 
 // split the text into letters and put them into the span elements
 text.innerHTML = text.innerText.split('').map((letter,i) => 

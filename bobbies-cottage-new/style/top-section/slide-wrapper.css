@@ -15,10 +15,12 @@
 }
 
 .big-text-container {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 30%;
+    /* max-width: 400px; */
     height: 190px;
-    left: 30px;
+    left: 14px;
     background-color: var(--color-dark);
     transform: translate(30%, -50%);
     color: white;
