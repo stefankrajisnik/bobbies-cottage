@@ -41,30 +41,40 @@
 
 .menu-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
 }
 
-.menu-bar ul {
+.menu-bar > ul {
     list-style-type: none;
     display:flex;
     justify-content: space-between;
     width: 100%;
+    
 }
 
+.menu-bar ul li {
+    list-style-type: none;
+}
 .menu-bar ul li a {
     text-decoration: none;
     color: white;
 }
 
-.sub-menu-1 ul {
+.sub-menu ul {
+    background-color: var(--color-dark);
     display: none;
     position: absolute;
+    padding-top: 2rem;
     /* flex-direction: column; */
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul {
+.sub-menu ul li {
+    margin-top: 0.5rem;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
     display: block;
     z-index: 2;
 }
