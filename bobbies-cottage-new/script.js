@@ -11,3 +11,10 @@ console.log(allSpans)
 allSpans.forEach((span,idx) => {
     span.style.transform = `rotate(${idx * 11.5}deg)`
 })
+
+
+const downArrow = document.querySelector('.arrow-down')
+const topSection = document.querySelector('.top-section')
+downArrow.addEventListener('click', ()=> {
+    topSection.style.transform = 'translateY(-100vh)'
+});

@@ -95,6 +95,7 @@
     z-index: 100;
     visibility: hidden;
     transition: all .4s ease;
+    padding: 0 10px;
 }
 
 .sub-menu li {
@@ -116,4 +117,5 @@
 .menu-item:hover .sub-menu {
     visibility: visible;
     top: 80%;
+    background-color: rgba(0,0,0,0.4);
 }
