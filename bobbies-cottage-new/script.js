@@ -18,3 +18,41 @@ const topSection = document.querySelector('.top-section')
 downArrow.addEventListener('click', ()=> {
     topSection.style.transform = 'translateY(-100vh)'
 });
+
+
+class Dog {
+    constructor(name, birthday, lavez) {
+        this.name = name;
+        this.birthday = birthday;
+        this.lavez = lavez;
+    }
+
+    //Declare private variables
+    _attendance = 0;
+
+    getAge() {
+        //Getter
+        return this.calcAge();
+    }
+
+    calcAge() {
+        //calculate age using today's date and birthday
+        return Date.now() - this.birthday;
+    }
+    
+    bark() {
+        return console.log("Woof!");
+    }
+
+    updateAttendance() {
+        //add a day to the dog's attendance days at the petsitters
+        this._attendance++;
+    }
+}
+
+//instantiate a new object of the Dog class, and individual dog named Rufus
+const rufus = new Dog("Rufus", "2/1/2017",bark());
+const da = new Dog("dsdsds", "2/1/2015",bark());
+
+console.log(rufus,da)
+
