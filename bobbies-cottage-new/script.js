@@ -7,7 +7,6 @@ text.innerHTML = text.innerText.split('').map((letter,i) =>
 
 // grab all spans and make them rotate 
 const allSpans = document.querySelectorAll('span');
-console.log(allSpans)
 allSpans.forEach((span,idx) => {
     span.style.transform = `rotate(${idx * 11.5}deg)`
 })
@@ -20,39 +19,60 @@ downArrow.addEventListener('click', ()=> {
 });
 
 
-class Dog {
-    constructor(name, birthday, lavez) {
-        this.name = name;
-        this.birthday = birthday;
-        this.lavez = lavez;
-    }
+const btnLeft = document.querySelector('.fa-angle-left');
+const btnRight = document.querySelector('.fa-angle-right');
+let slides = document.querySelectorAll('.single-slide');
+let index = 0;
+let currentSlide = slides[index];
 
-    //Declare private variables
-    _attendance = 0;
-
-    getAge() {
-        //Getter
-        return this.calcAge();
-    }
-
-    calcAge() {
-        //calculate age using today's date and birthday
-        return Date.now() - this.birthday;
-    }
-    
-    bark() {
-        return console.log("Woof!");
-    }
-
-    updateAttendance() {
-        //add a day to the dog's attendance days at the petsitters
-        this._attendance++;
-    }
+function setCurrentSlide() {
+    currentSlide = slides[index];
 }
 
-//instantiate a new object of the Dog class, and individual dog named Rufus
-const rufus = new Dog("Rufus", "2/1/2017",bark());
-const da = new Dog("dsdsds", "2/1/2015",bark());
+function showNextSlide() {
+    currentSlide.classList.remove('show');
+    index++;
+    setCurrentSlide()
+    currentSlide.classList.add('show');
+}
 
-console.log(rufus,da)
+function showPreviousSlide() {
+    currentSlide.classList.remove('show');
+    index--;
+    setCurrentSlide()
+    currentSlide.classList.add('show');
+}
 
+function startFromZero() {
+    currentSlide.classList.remove('show');
+    index = 0;
+    setCurrentSlide()
+    currentSlide.classList.add('show');
+}
+
+function startFromEnd() {
+    currentSlide.classList.remove('show');
+    index = slides.length - 1;
+    setCurrentSlide()
+    currentSlide.classList.add('show');
+}
+
+btnRight.addEventListener('click', () => {
+    
+    if(index !== slides.length - 1){
+        console.log(`index is not ZERO, index was ${index}`)
+
+        showNextSlide()
+    }else {
+        startFromZero()
+    }
+})
+
+btnLeft.addEventListener('click', () => {
+   
+    if(index !== 0) {
+        showPreviousSlide()
+    } else {
+        startFromEnd()
+    }
+})
